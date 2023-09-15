@@ -1,0 +1,319 @@
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  user-select: none;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .complogo {
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #2d1d44;
+    color: white;
+    text-transform: uppercase;
+    overflow: hidden;
+    width: 100%;
+    z-index: 1;
+  }
+  .complogo  .logo {
+    display: flex;
+  }
+
+  .sty{
+    height: 55px;
+    width: 195px;
+  } 
+  .complogo  .navi {
+    display: flex;
+    list-style-type: none;
+  }
+  .complogo  .navi li {
+    margin-top: 15px;
+    opacity: 1;
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+  .complogo  .navi .menu {
+    padding: 0 10px;
+    cursor: pointer;
+  }
+  .complogo  .navi .menu .link {
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    color: white;
+  }
+  .complogo  .navi .menu  .link:hover {
+    color: #C67B00;
+  }
+  
+/* ===================SLIDER CSS===================== */
+#sli{
+  width: 100%;
+}
+  [class^="number-slide"],
+  [class*=" number-slide"] {
+    background: grey;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: #fff;
+    font-weight: 500;
+    height: auto;
+    max-height: 100vh;
+    position: relative;
+  }
+  .fr{
+    object-fit:fill;
+    height:700px;
+    width: 100%; 
+   } 
+   .info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.1);
+    max-width: 70%;
+    padding: 10px;
+    border-radius: 4px;
+    position: absolute;
+    top: 130;
+    padding: 15px 30px;
+}
+   .info h2 {
+    color: #fff;
+    font-size: 45px;
+    text-transform: capitalize;
+    font-weight: 800;
+    letter-spacing: 2px; 
+}
+.info p {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    width: 60%;
+    padding: 10px;
+    border-radius: 4px;
+}
+.get{
+  position: absolute;
+  bottom: 10%;
+  right: 45%;
+}
+.gsbtn{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius:3px ;
+  background-color: #C67B00;
+  height: 50px;
+  width: 150px;
+  -webkit-border-radius:3px ;
+  -moz-border-radius:3px ;
+  -ms-border-radius:3px ;
+  -o-border-radius:3px ;
+}
+.gsbtn:hover{
+  border: 3px solid #C67B00;
+  background-color: rgba(255, 151, 65, 0);
+  transition: 0.3s;
+  border-radius: 20px;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+/*<!------------- EXPLORE TOP DESTINATIONS  End----------------------> */
+.main-txt h1{
+  text-align: center;
+  margin-top: 30px;
+  font-weight: 600;
+}
+.main-txt h1 span{
+  /* color: #ffa500; */
+  color: #C67B00;
+  font-weight: 1200;
+}
+.packages .card{
+  border-radius: 5px;
+  border: none;
+  box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+}
+.packages .card img{
+  border-radius: 5px;
+}
+.packages .card .card-body{
+  background: transparent;
+}
+.packages .card .card-body h3{
+  font-size: 25px;
+  font-weight: 600;
+}
+.packages .card .card-body p{
+  font-size: 15px;
+}
+.packages .card .card-body h6{
+  font-size: 20px;
+}
+.rmbtn{
+ background-color:  #ffa500;
+ color: white;
+ border: none;
+ border-radius:5px ;
+ padding: 10px 10px;
+ cursor: pointer;
+ -webkit-border-radius:5px ;
+ -moz-border-radius:5px ;
+ -ms-border-radius:5px ;
+ -o-border-radius:5px ;
+}
+#countrycards:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 8px 2px rgba(112, 112, 112, 0.75);
+  -webkit-box-shadow: 0px 0px 8px 2px rgba(112, 112, 112, 0.75);
+  -moz-box-shadow: 0px 0px 8px 2px rgba(112, 112, 112, 0.75);
+  filter:brightness(105%);
+  -webkit-filter:brightness(105%);
+}
+
+/*<!------------- EXPLORE TOP DESTINATIONS  End----------------------> */
+  
+ /* -----------------------Our SERVICES------------- ---- */
+
+   h1{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+  }
+  h1 span{
+  color: #C67B00;
+  font-weight: 1200;
+} 
+h1 {
+  text-align: center;
+  } 
+#svgimg{
+  color: #C67B00;
+  background-color: #C67B00;
+} 
+#serimg{
+  align-items: center;
+  text-align: center;
+  display: flex;
+  align-self: center;
+  top: 20%;
+  height: 90%;
+  width: 90%;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+#rc{
+width: 50%;
+float: left;
+}
+#leftcon{
+margin-left: 15px;
+}
+#lef{
+  width: 50%;
+  float: left;
+}
+#righ{
+  border: none;
+}
+#righ h3{
+  font-size: 2rem;
+color: #C67B00;
+}
+#righ p{
+  font-size: 25px;
+  color: gray;
+}
+#righ #cp span{
+font-weight: 800;
+color: #2e2a33;
+}
+#righ #cp {
+  color: #424242;
+  }
+ 
+#foot{
+  background-color: #2d1d44;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+  .cpright{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  .footer{
+  font-family: 'Play', sans-serif;
+  text-align:center;
+  }
+  
+  .footer .row{
+    text-align:center;
+  width:100%;
+  margin:1% 0%;
+  color:rgb(207, 207, 207);
+  font-size:0.8em;
+  }
+  .footer .row ul{
+    width:100%;
+    }
+ .footer .row ul li{
+    display:inline-block;
+    margin:0px 5px;
+    }
+  .footer .row a{
+  text-decoration:none;
+  color:rgb(207, 207, 207);
+  transition:0.5s;
+  }
+  
+  .footer .row a:hover{
+  color:#C67B00;
+  }
+  
+ 
+ 
+ 
